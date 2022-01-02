@@ -1,4 +1,4 @@
-const socket = io('https://radiant-forest-87782.herokuapp.com:3000')
+const socket = io('/')
 socket.on('chat-message', data => {
     console.log(data)
 })
