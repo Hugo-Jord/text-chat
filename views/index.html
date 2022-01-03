@@ -30,18 +30,36 @@
             background-color: #FFFFFF;
         }
 
+        #other-container{
+            position: relative;
+        }
+
+        #send-container{
+            bottom: 0;
+            left: 50%;
+        }
+
+        #videochat{
+            left: 0; 
+            right: 0; 
+            margin-left: auto; 
+            margin-right: auto;
+            position: absolute;
+        }
+
     </style>
 </head>
 <body>
     <div id="message-container"></div>
-    <form id="send-container">
-        <input type="text" id="message-input">
-        <button type="submit" id="send-button">Send</button>
-    </form>
+    <div id="other-container">
+        <form id="send-container">
+            <input type="text" id="message-input">
+            <button type="submit" id="send-button">Send</button>
+        </form>
 
-    <button class="btn" id="videochat" onclick="gotoVideoChat()">
-        <img src="https://uxwing.com/wp-content/themes/uxwing/download/37-communication-chat-call/video-chat.png" height="50px" width="50px"/>
-    </button>
-
+        <button class="btn" id="videochat" onclick="gotoVideoChat()">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/37-communication-chat-call/video-chat.png" height="50px" width="50px"/>
+        </button>
+    </div>
 </body>
 </html>
