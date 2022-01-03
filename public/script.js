@@ -32,3 +32,7 @@ function appendMessage(message){
     messageElement.innerText = message
     messageContainer.append(messageElement)
 }
+
+function gotoVideoChat(){
+    location.replace("https://mysterious-headland-46020.herokuapp.com/d9a7e7cb-6b45-4746-911b-2f7371da1bad")
+}
